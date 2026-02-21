@@ -139,6 +139,14 @@ const config: Config = {
     ],[
       '@docusaurus/plugin-content-docs',
       {
+        id: 'roadmap-features',
+        path: 'roadmap-features',
+        routeBasePath: 'roadmap-features',
+        sidebarPath: './sidebars/roadmap-features.ts',
+      },
+    ],[
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'tokenomics',
         path: 'tokenomics',
         routeBasePath: 'tokenomics',
@@ -168,6 +176,30 @@ const config: Config = {
         routeBasePath: 'ambassador',
         sidebarPath: './sidebars/ambassador.ts',
       },
+    ],[
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'user-guide',
+        path: 'user-guide',
+        routeBasePath: 'user-guide',
+        sidebarPath: './sidebars/user-guide.ts',
+      },
+    ],[
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'merchant-guide',
+        path: 'merchant-guide',
+        routeBasePath: 'merchant-guide',
+        sidebarPath: './sidebars/merchant-guide.ts',
+      },
+    ],[
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'investor-guide',
+        path: 'investor-guide',
+        routeBasePath: 'investor-guide',
+        sidebarPath: './sidebars/investor-guide.ts',
+      },
     ]
   ],
   themes: [
@@ -179,8 +211,8 @@ const config: Config = {
         indexDocs: true,
         indexBlog: false,
         indexPages: false,
-        docsRouteBasePath: ["whitepaper", "tokenomics", "governance", "circles-of-trust", "ambassador"],
-        docsDir: ["docs", "tokenomics", "governance", "circles-of-trust", "ambassador"],
+        docsRouteBasePath: ["whitepaper", "roadmap-features", "tokenomics", "governance", "circles-of-trust", "ambassador", "user-guide", "merchant-guide", "investor-guide"],
+        docsDir: ["docs", "roadmap-features", "tokenomics", "governance", "circles-of-trust", "ambassador", "user-guide", "merchant-guide", "investor-guide"],
         searchResultLimits: 10,
         searchResultContextMaxLength: 50,
       },
@@ -216,6 +248,13 @@ const config: Config = {
         },
         {
                 "type": "docSidebar",
+                "sidebarId": "roadmapFeaturesSidebar",
+                "position": "left",
+                "label": "Roadmap Features",
+                "docsPluginId": "roadmap-features"
+        },
+        {
+                "type": "docSidebar",
                 "sidebarId": "tokenomicsSidebar",
                 "position": "left",
                 "label": "Token Economics",
@@ -241,6 +280,27 @@ const config: Config = {
                 "position": "left",
                 "label": "Ambassador Program",
                 "docsPluginId": "ambassador"
+        },
+        {
+                "type": "docSidebar",
+                "sidebarId": "userGuideSidebar",
+                "position": "left",
+                "label": "User Guide",
+                "docsPluginId": "user-guide"
+        },
+        {
+                "type": "docSidebar",
+                "sidebarId": "merchantGuideSidebar",
+                "position": "left",
+                "label": "Merchant Guide",
+                "docsPluginId": "merchant-guide"
+        },
+        {
+                "type": "docSidebar",
+                "sidebarId": "investorGuideSidebar",
+                "position": "left",
+                "label": "Investor Guide",
+                "docsPluginId": "investor-guide"
         }
 ],
     },
