@@ -19,7 +19,7 @@ Anyone can become a Candidate by joining <a href="https://discord.gg/p2pfoundati
 
 ## Candidate → "Cipher" Requirements
 
-1. Minimum 500 XP
+1. Minimum 500 XP, you can check your XP <a href="https://p2p.foundation/en/tge/" target="_blank"> here</a> or on discord
 2. Complete mandatory induction session
 3. Apply for an open role posted by a "Keymaster"
 4. Pass interview with "Keymaster"
